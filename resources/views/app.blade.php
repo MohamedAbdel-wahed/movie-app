@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Movie App</title>
     
     <!-- Custom Css -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
@@ -23,14 +23,12 @@
 
     <div id="app">    
         <nav-bar></nav-bar>
-       
         
         @yield('content')
     </div>
 
+    @include('inc.footer')
 
-
-    
 
     <!-- Custom JS -->
     <script src="{{ asset('js/app.js') }}" defer></script>

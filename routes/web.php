@@ -5,7 +5,8 @@ use Illuminate\Support\Facades\Route;
 
 
 
-
+// welcome route 
+Route::view('/', 'welcome');
 
 // movies routes
 Route::get('/movies', 'MoviesController@index')->name('movies.index');

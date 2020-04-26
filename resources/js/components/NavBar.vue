@@ -9,7 +9,7 @@
                 </div>
                 <ul class="relative flex items-center hidden md:flex"> 
                     <li class="md:mr-8 lg:mr-0">
-                        <a href="/popular-movies" class="flex text-gray-400 font-semibold text-lg">
+                        <a href="/" class="flex text-gray-400 font-semibold text-lg">
                             <i class="material-icons">local_movies</i>       
                             <span class="ml-1">MovieApp</span>
                         </a>
@@ -51,7 +51,7 @@
                 <img src="/images/panda.jpeg" class="rounded-full h-20 w-20 select-none">
             </li>
             <li class="mt-3 pb-5  ">
-                <a href="#" class="flex text-gray-400 font-bold text-xl tracking-wide select-none items-center">
+                <a href="/" class="flex text-gray-400 font-bold text-xl tracking-wide select-none items-center">
                     <i class="material-icons">local_movies</i>       
                     <span class="ml-1">MovieApp</span>
                 </a>
@@ -69,7 +69,7 @@
                </div>
             </div>
             <li id="shows" class=" mt-2 py-2 text-sm hover:bg-gray-700 rounded-sm w-full text-center cursor-pointer" @click="addActive('shows')">
-                <a href="#" class="select-none w-full mr-4">TV SHOWS</a>
+                <a href="/tv" class="select-none w-full mr-4">TV SHOWS</a>
             </li>
             <li id="actors" class="mt-2 py-2 text-sm hover:bg-gray-700 rounded-sm w-full text-center cursor-pointer" @click="addActive('actors')" >
                 <a href="/actors" class="select-none w-full mr-4">ACTORS</a>

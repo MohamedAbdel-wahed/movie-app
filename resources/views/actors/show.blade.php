@@ -33,7 +33,7 @@
                     <div class="mt-6 md:mt-10 xl:w-10/12 w-full px-2">
                         <p class="text-gray-300 text-xs">{{$actor['biography']}}</p>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
