@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="mt-6 md:mt-10 xl:w-10/12 w-full px-2">
-                        <p class="text-gray-300 text-xs">{{$actor['biography']}}</p>
+                        <p class="text-gray-300 text-xs h-40 overflow-hidden">{{$actor['biography']}}</p>
                     </div>
                 </div> 
             </div>
@@ -41,7 +41,7 @@
      <!-- Actor's Movies-->
      <div class="container mx-auto px-4 py-10 select-none border-b border-gray-700" >
         <div class=" ml-2 mb-5">
-            <h1 class="text-white capitalize text-2xl font-bold tracking-wide1">Movies</h1>
+            <h1 class="text-white capitalize text-2xl font-bold tracking-wide">Movies</h1>
         </div>
         <div class="flex flex-wrap justify-start mt-5">
             @if(count($movies)>0)
@@ -59,7 +59,6 @@
                         @endif
                     @endif
                 @endforeach
-                {{$movies->links()}}
             @else 
                 <div class="mx-auto text-center mt-8">
                     <h1 class="text-gray-400 4xl">No Movies</h1>

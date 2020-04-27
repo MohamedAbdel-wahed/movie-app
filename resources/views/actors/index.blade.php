@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-    <div class="container mx-auto px-4 mt-32 select-none border-b border-gray-700 pb-8" >
+    <div class="container mx-auto px-4 mt-32 select-none border-b border-gray-700 pb-12" >
         <div class=" ml-12 sm:ml-2">
             <h1 class="text-orange-600 uppercase text-lg mb-3 font-semibold tracking-wide">Popular Actors</h1>
         </div>
@@ -27,7 +27,6 @@
                     </div>
                 </div>
             @endforeach
-            {{$actors->links()}}
         </div>
     </div>
 @endsection
